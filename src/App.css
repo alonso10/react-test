@@ -1,0 +1,42 @@
+.content {
+  margin: 4rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  text-transform: uppercase;
+}
+
+.td, .th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.content-button {
+  padding: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  border-color: teal;
+  border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 5px 5px #cccccc;
+}
+
+.content-input {
+  padding: 1rem;
+}
